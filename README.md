@@ -1,6 +1,9 @@
 # UCGGAT
 UCGGAT: User Purchase Intention Prediction Based on User Fine-grained Module Click Stream of Product Detail Page
 
+# Framework
+
+
 ## Overview
 Here we provide the implementation of a User Click Graph-Graph Attention Network (UCGGAT) layer in TensorFlow. The repository is organised as follows:
 - `data/` put you data here (The data form is a diagram composed of click module flow);
@@ -22,24 +25,6 @@ The script has been tested running under Python 3.5.2, with the following packag
 
 In addition, CUDA 9.0 and cuDNN 7 have been used.
 
-## Reference
-If you make advantage of the GAT model in your research, please cite the following in your manuscript:
+## Acknowledge
+This work was supported by the National Key R&D Program of China under Grant No. 2020AAA0103804 and partially supported by grants from the National Natural Science Foundation of China (No.72004021).
 
-```
-@article{
-  velickovic2018graph,
-  title="{Graph Attention Networks}",
-  author={Veli{\v{c}}kovi{\'{c}}, Petar and Cucurull, Guillem and Casanova, Arantxa and Romero, Adriana and Li{\`{o}}, Pietro and Bengio, Yoshua},
-  journal={International Conference on Learning Representations},
-  year={2018},
-  url={https://openreview.net/forum?id=rJXMpikCZ},
-  note={accepted as poster},
-}
-```
-
-You may also be interested in the following unofficial ports of the GAT model:
-- \[Keras\] [keras-gat](https://github.com/danielegrattarola/keras-gat), currently under development by [Daniele Grattarola](https://github.com/danielegrattarola);
-- \[PyTorch\] [pyGAT](https://github.com/Diego999/pyGAT), currently under development by [Diego Antognini](https://github.com/Diego999).
-
-## License
-MIT
