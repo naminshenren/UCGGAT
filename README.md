@@ -26,5 +26,5 @@ The script has been tested running under Python 3.5.2, with the following packag
 In addition, CUDA 9.0 and cuDNN 7 have been used.
 
 ## Acknowledge
-This work was supported by the National Key R&D Program of China under Grant No. 2020AAA0103804 and partially supported by grants from the National Natural Science Foundation of China (No.72004021).
+This work was supported by the National Key R&D Program of China under Grant No. 2020AAA0103804 and partially supported by grants from the National Natural Science Foundation of China (No.72004021). This work belongs to the University of science and technology of China.
 
