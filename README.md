@@ -2,16 +2,13 @@
 UCGGAT: User Purchase Intention Prediction Based on User Fine-grained Module Click Stream of Product Detail Page
 
 ## Overview
-Here we provide the implementation of a Graph Attention Network (GAT) layer in TensorFlow, along with a minimal execution example (on the Cora dataset). The repository is organised as follows:
-- `data/` contains the necessary dataset files for Cora;
-- `models/` contains the implementation of the GAT network (`gat.py`);
+Here we provide the implementation of a User Click Graph-Graph Attention Network (UCGGAT) layer in TensorFlow. The repository is organised as follows:
+- `data/` put you data here (The data form is a diagram composed of click module flow);
+- `models/` contains the implementation of the UCGGAT network (`ucggat.py`);
 - `pre_trained/` contains a pre-trained UCGGAT model;
-- `utils/` contains:
-    * an implementation of an attention head, along with an experimental sparse version (`layers.py`);
-    * preprocessing subroutines (`process.py`);
-    * preprocessing utilities for the PPI benchmark (`process_ppi.py`).
 
-Finally, `execute_cora.py` puts all of the above together and may be used to execute a full training run on Cora.
+
+Finally, `execute_ucg.py` puts all of the above together and may be used to execute a full training run on you data by executing `python execute_ucg.py`.
 
 
 ## Dependencies
