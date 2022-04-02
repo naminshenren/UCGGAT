@@ -2,7 +2,7 @@
 UCGGAT: User Purchase Intention Prediction Based on User Fine-grained Module Click Stream of Product Detail Page
 
 # Framework
-![image] (https://github.com/naminshenren/UCGGAT/blob/master/pre_trained/cora/ucggat.PNG)
+![image](https://github.com/naminshenren/UCGGAT/blob/master/pre_trained/cora/ucggat.PNG)
 
 ## Overview
 Here we provide the implementation of a User Click Graph-Graph Attention Network (UCGGAT) layer in TensorFlow. The repository is organised as follows:
